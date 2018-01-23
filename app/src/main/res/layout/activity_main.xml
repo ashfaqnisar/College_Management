@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
+            android:onClick="notices_activity"
             android:text="@string/notices" />
     </LinearLayout>
 
@@ -63,14 +64,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Clubs" />
+            android:onClick="clubs_activity"
+            android:text="@string/clubs" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Anti Ragging" />
+            android:onClick="anti_ragging_activity"
+            android:text="@string/anti_ragging" />
     </LinearLayout>
 
     <LinearLayout
@@ -84,14 +87,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Faculty" />
+            android:onClick="faculty_activity"
+            android:text="@string/faculty" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Payment" />
+            android:onClick="payment_activity"
+            android:text="@string/payment" />
     </LinearLayout>
 
     <LinearLayout
@@ -105,14 +110,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Forums" />
+            android:onClick="forums_activity"
+            android:text="@string/forums" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Contact US" />
+            android:onClick="contact_us_activity"
+            android:text="@string/contact_us" />
     </LinearLayout>
 
 </LinearLayout>

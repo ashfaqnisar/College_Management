@@ -9,7 +9,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +24,39 @@
             android:name=".SignupActivity"
             android:theme="@style/AppTheme.Dark" />
         <activity
-            android:name="com.ezerka.materialloginexample.NotificationActivity"
-            android:label="@string/title_activity_notification"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".AttendanceActivity"
+            android:label="@string/title_activity_attendance"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".TrackActivity"
+            android:label="@string/activity_track" />
+        <activity
+            android:name=".ResultsActivity"
+            android:label="@string/activity_results" />
+        <activity
+            android:name=".NoticesActivity"
+            android:label="@string/activity_notices" />
+        <activity
+            android:name=".ClubsActivity"
+            android:label="@string/activity_clubs" />
+        <activity
+            android:name=".AntiRaggingActivity"
+            android:label="@string/activity_anti_ragging" />
+        <activity
+            android:name=".FacultyActivity"
+            android:label="@string/activity_faculty" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="@string/activity_payment" />
+        <activity
+            android:name=".ForumsActivity"
+            android:label="@string/activity_forums" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="Contact us" />
     </application>
 
 </manifest>
